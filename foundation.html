@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation CSS Framework</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text"><i class="fi-web"></i> Framework CSS Guide</li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="index.html"><i class="fi-home"></i> Inicio</a></li>
+                <li><a href="tipos.html"><i class="fi-list"></i> Tipos</a></li>
+                <li><a href="foundation.html" class="active"><i class="fi-foundation"></i> Foundation</a></li>
+                <li><a href="aplicaciones.html"><i class="fi-laptop"></i> Aplicaciones</a></li>
+                <li><a href="recursos.html"><i class="fi-bookmark"></i> Recursos</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <section class="content-section">
+        <div class="grid-container">
+            <div class="text-center">
+                <h1>Foundation CSS Framework</h1>
+                <p class="lead">El framework profesional para desarrolladores avanzados</p>
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=300&fit=crop" alt="Foundation CSS" class="thumbnail">
+            </div>
+
+            <div class="grid-x grid-padding-x">
+                <div class="large-6 cell">
+                    <h2>¿Por qué Foundation?</h2>
+                    <p>Foundation es más que un framework CSS, es una familia completa de herramientas responsivas para la creación rápida de prototipos y desarrollo de sitios web y aplicaciones.</p>
+                    
+                    <h3>Características Principales:</h3>
+                    <ul>
+                        <li><strong>Grid Flexible:</strong> Sistema de grillas avanzado con opciones de personalización</li>
+                        <li><strong>Mobile First:</strong> Diseñado desde el inicio para dispositivos móviles</li>
+                        <li><strong>Sass Integration:</strong> Completamente personalizable con Sass</li>
+                        <li><strong>Componentes Avanzados:</strong> Tabs, accordions, modals, y más</li>
+                        <li><strong>Accesibilidad:</strong> Construido pensando en la accesibilidad web</li>
+                    </ul>
+                </div>
+                
+                <div class="large-6 cell">
+                    <h2>Ventajas de Foundation</h2>
+                    <div class="callout success">
+                        <h4><i class="fi-check"></i> Flexibilidad Total</h4>
+                        <p>Foundation te da control completo sobre tu diseño sin imponer estilos restrictivos.</p>
+                    </div>
+                    
+                    <div class="callout primary">
+                        <h4><i class="fi-mobile"></i> Verdaderamente Responsivo</h4>
+                        <p>Grid system que se adapta perfectamente a cualquier tamaño de pantalla.</p>
+                    </div>
+                    
+                    <div class="callout warning">
+                        <h4><i class="fi-wrench"></i> Altamente Configurable</h4>
+                        <p>Personaliza cada aspecto del framework según tus necesidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template de Foundation CSS -->
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                    <h2>Template Ejemplo de Foundation</h2>
+                    <div class="callout secondary">
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-8 cell">
+                                <h3>Card de Producto</h3>
+                                <p>Este es un ejemplo de template usando componentes de Foundation CSS.</p>
+                                <div class="progress" role="progressbar" tabindex="0" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-meter" style="width: 75%">
+                                        <p class="progress-meter-text">75% Complete</p>
+                                    </div>
+                                </div>
+                                <p><strong>Precio:</strong> $99.99</p>
+                                <p><strong>Disponibilidad:</strong> En stock</p>
+                            </div>
+                            <div class="large-4 cell">
+                                <img src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?w=300&h=200&fit=crop" alt="Template" class="thumbnail">
+                                <a href="#" class="button expanded">Ver Más</a>
+                                <a href="#" class="button secondary expanded">Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Componentes de Foundation -->
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                    <h2>Componentes de Foundation</h2>
+                    
+                    <!-- Accordion -->
+                    <ul class="accordion" data-accordion>
+                        <li class="accordion-item is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">Grid System</a>
+                            <div class="accordion-content" data-tab-content>
+                                <p>Foundation utiliza un sistema de grid de 12 columnas que es completamente flexible y responsivo. Puedes crear layouts complejos con facilidad.</p>
+                            </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                            <a href="#" class="accordion-title">Componentes UI</a>
+                            <div class="accordion-content" data-tab-content>
+                                <p>Incluye botones, formularios, navegación, modals, tooltips y muchos más componentes listos para usar.</p>
+                            </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                            <a href="#" class="accordion-title">JavaScript Plugins</a>
+                            <div class="accordion-content" data-tab-content>
+                                <p>Orbit slider, Reveal modals, Dropdown menus, y otros plugins JavaScript integrados.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Instalación -->
+            <div class="callout">
+                <h3>Instalación Rápida</h3>
+                <p>Incluye Foundation en tu proyecto usando CDN:</p>
+                <pre><code>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation.min.css"&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/js/foundation.min.js"&gt;&lt;/script&gt;</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-6 cell">
+                    <h4><i class="fi-web"></i> Framework CSS Guide</h4>
+                    <p>Tu recurso completo para aprender sobre framework CSS y Foundation.</p>
+                </div>
+                <div class="large-6 cell text-right">
+                    <p>&copy; 2025 - Desarrollado con Foundation CSS</p>
+                    <p>Proyecto educativo sobre Framework CSS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/js/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
+</body>
+</html>
